@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+/* globals.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #050810;  */
+   background-color: #0f1a27; 
+  font-family: 'Noto Sans', system-ui, sans-serif;
+}
+
+/* Custom Tailwind utilities */
+@layer utilities {
+  .bg-night {
+    background-color: #0A0F1A; /* slightly different deep dark navy */
+  }
+  .text-mist {
+    color: #AEBACF; /* soft pastel blue-gray text */
+  }
+}
+
+/* Uncomment if you want a thin scrollbar */
+/*
+.scroll-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 10px;
+}
+*/
+
+/* Optional font import if you want Inter instead */
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+*/
