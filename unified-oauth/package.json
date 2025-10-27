@@ -1,0 +1,15 @@
+{
+  "name": "yuvan-unified-oauth-v1",
+  "version": "1.0.1",
+  "description": "Reusable NextAuth OAuth provider factories (Google, Facebook, LinkedIn, Twitter, Instagram, Reddit, GitHub) with configurable redirect URIs and callbacks.",
+  "type": "module",
+  "main": "index.js",
+  "peerDependencies": {
+    "next-auth": "^4.0.0"
+  },
+  "author": "Yuvan Ashrith",
+  "license": "MIT",
+  "dependencies": {
+    "yuvan-unified-oauth-v1": "^1.0.1"
+  }
+}
